@@ -1,0 +1,49 @@
+body{
+    background-color: #ffffff;
+}
+.title { /*제목*/
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+}
+.write { /*할 일 작성칸, 버튼*/
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#input { /*할 일 작성칸*/
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    border: 2px inset rebeccapurple;
+    border-radius: 5px;
+}
+ul { /*리스트 모양*/
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+#list-title { /*할 일 목록 - 타이틀*/
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.list { /*할 일 목록*/
+    height: auto;
+    width: 100%;
+}
+#list { /*전체 리스트*/
+    box-shadow: 0px 0px 3px 0px dimgrey;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+}
+li { /*리스트 하나당 디자인*/
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+    border: 1px none rebeccapurple;
+    box-shadow: 2px 2px 10px 1px gray;
+    height: 40px;
+    margin: 20px 10px;
+}
