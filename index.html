@@ -6,21 +6,18 @@
     <title>TO DO LIST</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
-    <div class="title">
-        <h1>To Do List</h1>
+    <div class="title"> <!--제목-->
+        <h1>To Do List</h1> 
     </div>
-    <div class="write">
-        <input id="input" type="text" placeholder="할 일 추가" onkeydown="get_list();" />
-        <input type="button" id="list-plus" value="추가" onkeydown="get_list_button();"/>
+    <div class="write"> <!--할 일 작성-->
+        <input id="input" type="text" placeholder="할 일을 적고 추가하시려면 Enter를 누르시오." onkeydown="get_list();" />
     </div>
-    <div class="list">
+    <div class="list"> <!--할 일 목록-->
         <ul id="list">
-            <li id="list-item"></li>
-
+            <div id="list-title">할 일 목록</div>
         </ul>
     </div>
 </body>
